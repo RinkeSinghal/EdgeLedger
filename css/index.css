@@ -26,6 +26,7 @@
   max-width: 600px;
 }
 
+/* Overlay */
 .hero::before {
   content: '';
   position: absolute;
@@ -39,3 +40,29 @@
 .hero * {
   z-index: 10;
 }
+
+/* About */
+.icons{
+  padding: 30px;
+}
+
+.icons i{
+  background-color: #28a745;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.icons h3{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Team */
+.team img{
+  /* display: inline-block; */
+  /* width: 100%; */
+  border-radius: 50%;
+}
+
