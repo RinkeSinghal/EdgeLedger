@@ -67,3 +67,125 @@ img{
 #navbar a:hover{
   border-bottom: 2px #28a745 solid;
 }
+
+/* Hero Image */
+.hero{
+  background: url(../img/home/showcase.jpg) no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.hero .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.hero .content h1{
+  font-size: 55px;
+  padding: 10px;
+}
+
+.hero .content p{
+  margin: 20px 0 30px;
+  font-size: 23px;
+  max-width: 600px;
+}
+
+/* Overlay */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);  
+}
+
+.hero * {
+  z-index: 10;
+}
+
+/* About */
+.icons{
+  padding: 30px;
+}
+
+.icons i{
+  background-color: #28a745;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.icons h3{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Team */
+.team img{
+  /* display: inline-block; */
+  /* width: 100%; */
+  border-radius: 50%;
+}
+
+/* COntact */
+#contact .callback-form{
+  width: 100%;
+  padding: 20px 0;
+}
+
+.callback-form .form-control{
+  margin-bottom: 15px;
+}
+
+.callback-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.callback-form input{
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: 1px solid #f5f5f5;
+}
+
+.callback-form input:focus{
+  outline-color: #28a745;
+}
+
+.callback-form .btn{
+  padding: 12px 0;
+  margin-top: 20px;
+}
+
+/* Footer */
+#footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+.footer a{
+  color: #fff;
+}
+
+.footer a:hover{
+  color: #28a745;
+}
+
+.footer .social > *{
+  margin-right: 30px;
+}
