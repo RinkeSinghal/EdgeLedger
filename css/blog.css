@@ -1,0 +1,29 @@
+.hero.blog{
+  background: url(../img/home/blog.jpg) no-repeat center center/cover;
+  height: 30vh;
+  position: relative;
+  color: #fff;
+}
+
+.post{
+  padding: 50px 30px;
+}
+
+.post h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #ccc;
+}
+
+.post .meta{
+  margin-bottom: 30px;
+}
+
+.post img{
+  display: block;
+  margin: 0 auto 30px;
+  width: 300px;
+  border-radius: 50%;
+
+}

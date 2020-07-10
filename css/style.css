@@ -36,7 +36,7 @@ img{
 }
 
 /* Navigation Bar */
-#navbar{
+.navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,17 +54,17 @@ img{
   font-weight: 400px;
 }
 
-#navbar ul{
+.navbar ul{
   display: flex;
 }
 
-#navbar a{
+.navbar a{
   color: #fff;
   padding: 10px 20px;
   margin: 0 5px;
 }
 
-#navbar a:hover{
+.navbar a:hover{
   border-bottom: 2px #28a745 solid;
 }
 
@@ -189,3 +189,4 @@ img{
 .footer .social > *{
   margin-right: 30px;
 }
+

@@ -81,13 +81,10 @@
 
 /* Flex column */
 
-.flex-columns.flex-reverse .row{
-  flex-direction: row-reverse;
-}
 
 .flex-columns .row{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
   width: 100%;
 }
@@ -115,6 +112,10 @@
   align-items: flex-start;
   justify-content: center;
   padding: 30px;
+}
+
+.flex-columns.flex-reverse .row{
+  flex-direction: row-reverse;
 }
 
 .flex-columns h2{
