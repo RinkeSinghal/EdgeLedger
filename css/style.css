@@ -48,6 +48,11 @@ img{
   position: fixed;
   top: 0px;
   opacity: 0.8;
+  transition: 0.5s;
+}
+
+.navbar.top{
+  background: transparent;  
 }
 
 .navbar .logo{
